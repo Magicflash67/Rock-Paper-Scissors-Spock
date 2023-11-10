@@ -58,7 +58,7 @@ public class rockPaperScissors
     valid = true;
     dataCheck++; 
     } 
-    if (dataCheck <= 2) {
+    if (dataCheck >= 2) {
     System.out.println("you have not entred a valid move try again");
     valid = false;
     } else {if (dataCheck == 0 ) {
